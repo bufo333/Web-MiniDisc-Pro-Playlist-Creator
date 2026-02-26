@@ -1,0 +1,14 @@
+.venv
+__pycache__/
+*.pyc
+output*.csv
+*.csv
+!sample.ipynb
+.idea/
+
+# Secrets / credentials (defensive)
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
